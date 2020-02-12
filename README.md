@@ -21,5 +21,5 @@ Example:
 Build the container image yourself, or use pre-built image:
 
     gcloud run deploy --platform=managed --allow-unauthenticated \
-        --image gcr.io/ahmetb-public/zone-printer
+        --image gcr.io/ahmetb-public/zoneprinter
 
