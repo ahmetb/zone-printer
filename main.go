@@ -156,6 +156,10 @@ var (
 			location: "Tokyo, Japan",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
 		},
+		"asia-northeast2": {
+			location: "Osaka, Japan",
+			flagURL:  "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
+		},
 		"australia-southeast1": {
 			location: "Sydney, Australia",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
