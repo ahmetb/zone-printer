@@ -162,7 +162,7 @@ var (
 		},
 		"asia-east2": {
 			location: "Hong Kong",
-			flagURL: "https://en.wikipedia.org/wiki/Flag_of_Hong_Kong#/media/File:Flag_of_Hong_Kong.svg"
+			flagURL: "https://en.wikipedia.org/wiki/Flag_of_Hong_Kong#/media/File:Flag_of_Hong_Kong.svg",
 		},
 		"asia-northeast1": {
 			location: "Tokyo, Japan",
