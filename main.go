@@ -140,6 +140,10 @@ var (
 			location: "Eemshaven, Netherlands",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
 		},
+		"europe-west6": {
+			location: "Zurich, Switzerland",
+			flagURL:  "https://en.wikipedia.org/wiki/Switzerland#/media/File:Flag_of_Switzerland.svg",
+		},
 		"asia-south1": {
 			location: "Mumbai, India",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
@@ -148,9 +152,17 @@ var (
 			location: "Jurong West, Singapore",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg",
 		},
+		"asia-southeast2": {
+			location: "Jakarta, Indonesia",
+			flagURL:  "https://en.wikipedia.org/wiki/Indonesia#/media/File:Flag_of_Indonesia.svg",
+		},
 		"asia-east1": {
 			location: "Changhua County, Taiwan",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg",
+		},
+		"asia-east2": {
+			location: "Hong Kong",
+			flagURL: "https://en.wikipedia.org/wiki/Flag_of_Hong_Kong#/media/File:Flag_of_Hong_Kong.svg"
 		},
 		"asia-northeast1": {
 			location: "Tokyo, Japan",
@@ -159,6 +171,10 @@ var (
 		"asia-northeast2": {
 			location: "Osaka, Japan",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
+		},
+		"asia-northeast3": {
+			location: "Seoul, South Korea",
+			flagURL: "https://en.wikipedia.org/wiki/List_of_Korean_flags#/media/File:Flag_of_South_Korea.svg",
 		},
 		"australia-southeast1": {
 			location: "Sydney, Australia",
