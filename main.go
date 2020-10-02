@@ -142,7 +142,7 @@ var (
 		},
 		"europe-west6": {
 			location: "Zurich, Switzerland",
-			flagURL:  "https://en.wikipedia.org/wiki/Switzerland#/media/File:Flag_of_Switzerland.svg",
+			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
 		},
 		"asia-south1": {
 			location: "Mumbai, India",
@@ -154,7 +154,7 @@ var (
 		},
 		"asia-southeast2": {
 			location: "Jakarta, Indonesia",
-			flagURL:  "https://en.wikipedia.org/wiki/Indonesia#/media/File:Flag_of_Indonesia.svg",
+			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
 		},
 		"asia-east1": {
 			location: "Changhua County, Taiwan",
@@ -162,7 +162,7 @@ var (
 		},
 		"asia-east2": {
 			location: "Hong Kong",
-			flagURL: "https://en.wikipedia.org/wiki/Flag_of_Hong_Kong#/media/File:Flag_of_Hong_Kong.svg",
+			flagURL: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg",
 		},
 		"asia-northeast1": {
 			location: "Tokyo, Japan",
@@ -174,7 +174,7 @@ var (
 		},
 		"asia-northeast3": {
 			location: "Seoul, South Korea",
-			flagURL: "https://en.wikipedia.org/wiki/List_of_Korean_flags#/media/File:Flag_of_South_Korea.svg",
+			flagURL: "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
 		},
 		"australia-southeast1": {
 			location: "Sydney, Australia",
