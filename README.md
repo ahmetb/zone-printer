@@ -23,3 +23,5 @@ Build the container image yourself, or use pre-built image:
     gcloud run deploy --platform=managed --allow-unauthenticated \
         --image gcr.io/ahmetb-public/zoneprinter
 
+If you want to automate deploying this to all available
+Cloud Run regions, check out [this Terraform guide](https://github.com/ahmetb/cloud-run-multi-region-terraform/).
