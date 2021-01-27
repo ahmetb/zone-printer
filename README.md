@@ -18,11 +18,12 @@ Example:
 
 ## Deploy to Cloud Run
 
-Build the container image yourself, or use pre-built image:
+Clone this application, then build and deploy the image:
 
 ```sh
-gcloud run deploy --platform=managed --allow-unauthenticated \
-        --image gcr.io/ahmetb-public/zoneprinter
+gcloud beta run deploy zone-printer \
+        --platform=managed --allow-unauthenticated \
+        --source=.
 ```
 
 Follow the [Serving traffic from multiple
