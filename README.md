@@ -1,7 +1,7 @@
-# Cloud Run - Zone Printer demo application
+# Zone Printer demo application
 
 This web application prints the Google Cloud datacenter it’s running on with
-country and city name.
+information about where the datacenter is located (city, country and flag).
 
 It's used to demonstrate global load balancing capabilities of Google Cloud
 HTTPS Load Balancer, as it routes the request to the compute region closest
@@ -20,8 +20,20 @@ Example:
 
 Build the container image yourself, or use pre-built image:
 
-    gcloud run deploy --platform=managed --allow-unauthenticated \
+```sh
+gcloud run deploy --platform=managed --allow-unauthenticated \
         --image gcr.io/ahmetb-public/zoneprinter
+```
 
-If you want to automate deploying this to all available
-Cloud Run regions, check out [this Terraform guide](https://github.com/ahmetb/cloud-run-multi-region-terraform/).
+Follow the [Serving traffic from multiple
+regions](https://cloud.google.com/run/docs/multiple-regions) tutorial from
+Cloud Run documentation to see how you can deploy this application to all
+regions and set up a load balancer on top.
+
+If you want to automate further, check out [this Terraform
+guide](https://github.com/ahmetb/cloud-run-multi-region-terraform/) for
+achieving the same task.
+
+-----
+
+This is not an official Google project.
