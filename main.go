@@ -48,7 +48,7 @@ func main() {
 	}
 
 	var err error
-	templates, err = template.ParseGlob(filepath.Join("templates", "*.html"))
+	templates, err = template.ParseGlob(filepath.Join("templates", "*.html.tpl"))
 	if err != nil {
 		log.Fatalf("template parsing error: %v", err)
 	}
