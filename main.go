@@ -108,6 +108,18 @@ var (
 			location: "The Dalles, Oregon, USA",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
 		},
+		"us-west2": {
+			location: "Los Angeles, California, USA",
+			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg",
+		},
+		"us-west3": {
+			location: "Salt Lake City, Utah, USA",
+			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Utah.svg",
+		},
+		"us-west4": {
+			location: "Las Vegas, Nevada, USA",
+			flagURL:  "https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Nevada.svg?download",
+		},
 		"us-east4": {
 			location: "Ashburn, Virginia, USA",
 			flagURL:  "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
